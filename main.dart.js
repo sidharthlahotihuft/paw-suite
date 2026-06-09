@@ -95666,10 +95666,10 @@ A.az4.prototype={
 $0(){return this.a.e=this.b},
 $S:0}
 A.Vc.prototype={
-H(a){var s=this,r=null,q=A.ai(10),p=s.FU("Ordered",s.c,!1),o=s.d,n=o==null,m=n?r:o.me(-3456e8),l=s.e
-m=s.FU("Follow-up 1",m,l===1)
-o=n?r:o.me(-1728e8)
-return A.az(r,A.b1(A.b([p,m,s.FU("Follow-up 2",o,l===2)],t.p),B.p,B.k,B.n),B.l,r,r,new A.al(B.Y,r,r,q,r,r,B.q),r,r,B.If,B.la,r,r,r)},
+H(a){var s,r=this,q=null,p=A.ai(10),o=A.b([r.FU("Ordered",r.c,!1)],t.p),n=r.e
+if(n===1){s=r.d
+o.push(r.FU("Follow-up 1",s==null?q:s.me(-3456e8),!0))}if(n>=2){n=r.d
+o.push(r.FU("Follow-up 2",n==null?q:n.me(-1728e8),!0))}return A.az(q,A.b1(o,B.p,B.k,B.n),B.l,q,q,new A.al(B.Y,q,q,p,q,q,B.q),q,q,B.If,B.la,q,q,q)},
 FU(a,b,c){var s,r,q=null,p=c?B.B:B.P
 p=A.ag(a,q,q,q,A.c3(q,q,c?B.r:B.am,q,q,q,q,q,q,q,q,11,q,q,p,q,q,!0,q,q,q,q,q,q,q,q),q,q)
 s=b==null?"\u2014":A.r_("dd MMM").kL(b)
