@@ -29237,6 +29237,7 @@ r=A.qK(a9.i(0,"product_quantity"))
 r=r==null?k:B.d.e5(r)
 q=A.bm(a9.i(0,"last_order_month"))
 p=A.iu(a9.i(0,"do_not_call"))
+A.bm(a9.i(0,"pet_name"))
 o=A.bm(a9.i(0,"call_outcome"))
 n=A.bm(a9.i(0,"call_outcome_notes"))
 m=A.bm(a9.i(0,"outreach_timing_feedback"))
@@ -29262,10 +29263,10 @@ _.ch=q
 _.CW=r
 _.cx=s
 _.cy=a0
-_.db=a1
-_.dx=a2
-_.dy=a3
-_.fr=a4},
+_.dx=a1
+_.dy=a2
+_.fr=a3
+_.fx=a4},
 aWi(a){var s,r="expiry_date",q=A.aD(a.i(0,"id")),p=A.aD(a.i(0,"title")),o=A.bm(a.i(0,"brief_text"))
 if(o==null)o=""
 A.oh(a.i(0,"is_active"))
@@ -99904,12 +99905,12 @@ break
 case 5:return A.t(null,r)
 case 1:return A.r(p.at(-1),r)}})
 return A.u($async$Ce,r)},
-H(a){var s=this,r=null,q=A.bde(s.a.d.db),p=A.fM("d MMM, h:mm a").eS(s.a.d.z.aFs()),o=A.a6(12),n=A.dk(B.aa,1),m=A.a8(q.a,r,r,r,B.a15,r,r,r),l=t.p,k=A.bY(A.aU(A.b([A.a8(s.a.d.c,r,r,r,B.a0x,r,r,r),A.a8(q.b,r,r,r,B.a0E,r,r,r)],l),B.y,B.l,B.m),1),j=A.a8(p,r,r,r,B.k6,r,r,r)
+H(a){var s=this,r=null,q=A.bde(s.a.d.dx),p=A.fM("d MMM, h:mm a").eS(s.a.d.z.aFs()),o=A.a6(12),n=A.dk(B.aa,1),m=A.a8(q.a,r,r,r,B.a15,r,r,r),l=t.p,k=A.bY(A.aU(A.b([A.a8(s.a.d.c,r,r,r,B.a0x,r,r,r),A.a8(q.b,r,r,r,B.a0E,r,r,r)],l),B.y,B.l,B.m),1),j=A.a8(p,r,r,r,B.k6,r,r,r)
 m=A.b([A.b6(A.b([m,B.ah,k,j,B.ah,s.w?B.Xo:A.eA(B.aq,B.Td,B.P,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,s.gat9(),r,r,r,r,r,r)],l),B.o,B.l,B.m,0,r)],l)
 k=s.a.d
 j=k.Q
 if(j!=null){k=k.as
-B.b.I(m,A.b([B.cy,new A.ai(B.JO,A.a8(j+(k!=null?" \xb7 "+k:""),1,B.as,r,B.e7,r,r,r),r)],l))}k=s.a.d.dx
+B.b.I(m,A.b([B.cy,new A.ai(B.JO,A.a8(j+(k!=null?" \xb7 "+k:""),1,B.as,r,B.e7,r,r,r),r)],l))}k=s.a.d.dy
 if(k!=null&&k.length!==0){j=A.a6(8)
 B.b.I(m,A.b([B.bR,A.ar(r,A.a8(k,r,r,r,B.a0G,r,r,r),B.k,r,r,new A.ah(B.a0,r,r,j,r,r,B.r),r,r,r,B.iI,r,r,1/0)],l))}return A.ar(r,A.aU(m,B.y,B.l,B.m),B.k,r,r,new A.ah(B.f,r,n,o,r,r,B.r),r,r,r,B.Ji,r,r,r)}}
 A.azo.prototype={
@@ -99996,9 +99997,9 @@ q=n.at
 q=q==null?m:q.fK()
 p=n.ax
 p=p==null?m:p.fK()
-o=n.fr
+o=n.fx
 o=o==null?m:o.fK()
-return A.a9(["id",n.a,"store_id",n.b,"customer_name",n.c,"customer_phone",n.d,"task_type",n.e,"priority",n.f,"due_date",l,"status",n.w,"notes",n.x,"created_at",s,"updated_at",r,"product_name",n.Q,"product_weight",n.as,"predicted_finish_date",q,"last_purchase_date",p,"followup_sequence",n.ay,"order_count",n.ch,"product_quantity",n.CW,"last_order_month",n.cx,"do_not_call",n.cy,"call_outcome",n.db,"call_outcome_notes",n.dx,"outreach_timing_feedback",n.dy,"snoozed_until",o],t.N,t.z)},
+return A.a9(["id",n.a,"store_id",n.b,"customer_name",n.c,"customer_phone",n.d,"task_type",n.e,"priority",n.f,"due_date",l,"status",n.w,"notes",n.x,"created_at",s,"updated_at",r,"product_name",n.Q,"product_weight",n.as,"predicted_finish_date",q,"last_purchase_date",p,"followup_sequence",n.ay,"order_count",n.ch,"product_quantity",n.CW,"last_order_month",n.cx,"do_not_call",n.cy,"call_outcome",n.dx,"call_outcome_notes",n.dy,"outreach_timing_feedback",n.fr,"snoozed_until",o],t.N,t.z)},
 gaxH(){var s,r,q=this.at
 if(q==null)return null
 s=new A.ba(Date.now(),0,!1)
